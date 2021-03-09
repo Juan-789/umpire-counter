@@ -17,7 +17,9 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
+    basic.showString("pitches")
     basic.showNumber(pitches)
     basic.pause(500)
+    basic.showString("strikes")
     basic.showNumber(strikes)
 })
